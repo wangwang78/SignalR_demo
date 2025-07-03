@@ -15,7 +15,7 @@ namespace SignalRChat.Hubs
         public Task SendMessage(string user, string message)
         {
             _chatService.QueueSendMessage(user, message);
-            return Task.CompletedTask; // 立即返回
+            return Task.CompletedTask; 
         }
     }
 }
