@@ -21,7 +21,7 @@
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"后台任务错误: {ex.Message}");
+                    Console.WriteLine($"Background Task Failed: {ex.Message}");
                 }
             }
         }
